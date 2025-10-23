@@ -1,0 +1,219 @@
+[
+// ROW 1
+  [
+    { "label": "1", "type": "numeric", "width": 0.1, "popup": { "relevant":
+        [
+            { "type": "placeholder" },
+            { "label": "¹"  },
+            { "label": "½" },
+            { "label": "⅓" },
+            { "label": "¼" },
+            { "label": "⅛" }
+        ] }
+    },
+    { "label": "2", "type": "numeric", "width": 0.1, "popup": { "relevant":
+        [
+            { "type": "placeholder" },
+            { "label": "²" },
+            { "label": "⅔" }
+        ] }
+    },
+    { "label": "3", "type": "numeric", "width": 0.1, "popup": { "relevant":
+        [
+            { "type": "placeholder" },
+            { "label": "³" },
+            { "label": "¾" },
+            { "label": "⅜" }
+        ] }
+    },
+    { "type": "placeholder", "width": 0.035 },
+    { "label": "(", "type": "normal", "width": 0.09 },
+    { "label": ")", "type": "normal", "width": 0.09 },
+    { "label": "°", "type": "normal", "width": 0.09, "popup": { "relevant":
+        [
+            { "label": "′" },
+            { "label": "″" }
+        ] }
+    },
+    { "label": "∑", "type": "normal", "width": 0.09 },
+    { "label": "^", "type": "normal", "width": 0.09 },
+    { "type": "placeholder", "width": 0.035 },
+    { "label": "+", "type": "function", "width": 0.09, "popup": { "relevant":
+        [
+            { "label": "⁺" }
+        ] }
+    },
+    { "label": "-", "type": "function", "width": 0.09, "popup": { "relevant":
+        [
+            { "label": "⁻" }
+        ] }
+    }
+  ],
+// ROW 2
+  [
+    { "label": "4", "type": "numeric", "width": 0.1, "popup": { "relevant":
+        [
+            { "type": "placeholder" },
+            { "label": "⁴" }
+        ] }
+    },
+    { "label": "5", "type": "numeric", "width": 0.1, "popup": { "relevant":
+        [
+            { "type": "placeholder" },
+            { "label": "⁵" },
+            { "label": "⅝" }
+        ] }
+    },
+    { "label": "6", "type": "numeric", "width": 0.1, "popup": { "relevant":
+        [
+            { "type": "placeholder" },
+            { "label": "⁶" }
+        ] }
+    },
+    { "type": "placeholder", "width": 0.035 },
+    { "label": "[", "type": "normal", "width": 0.09 },
+    { "label": "]", "type": "normal", "width": 0.09 },
+    { "label": "%", "type": "normal", "width": 0.09, "popup": { "relevant":
+        [
+            { "label": "‰" }
+        ] }
+    },
+    { "label": "€", "type": "normal", "width": 0.09 },
+    { "label": "$", "type": "normal", "width": 0.09 },
+    { "type": "placeholder", "width": 0.035 },
+    { "label": "*", "type": "function", "width": 0.09, "popup": { "relevant":
+        [
+            { "label": "×" }
+        ] }
+    },
+    { "label": "/", "type": "function", "width": 0.09, "popup": { "relevant":
+        [
+            { "label": "÷" }
+        ] }
+    }
+  ],
+// ROW 3
+  [
+    { "label": "7", "type": "numeric", "width": 0.1, "popup": { "relevant":
+        [
+            { "type": "placeholder" },
+            { "label": "⁷" },
+            { "label": "⅞" }
+        ] }
+    },
+    { "label": "8", "type": "numeric", "width": 0.1, "popup": { "relevant":
+        [
+            { "type": "placeholder" },
+            { "label": "⁸" }
+        ] }
+    },
+    { "label": "9", "type": "numeric", "width": 0.1, "popup": { "relevant":
+        [
+            { "type": "placeholder" },
+            { "label": "⁹" }
+        ] }
+    },
+    { "type": "placeholder", "width": 0.035 },
+    { "label": "{", "type": "normal", "width": 0.09 },
+    { "label": "}", "type": "normal", "width": 0.09 },
+    { "label": "#", "type": "normal", "width": 0.09, "popup": { "relevant":
+        [
+            { "label": "•" }
+        ] }
+    },
+    { "label": "√", "type": "normal", "width": 0.09 },
+    { "label": "∫", "type": "normal", "width": 0.09 },
+    { "type": "placeholder", "width": 0.035 },
+    { "label": "=", "type": "function", "width": 0.18, "popup": { "relevant":
+        [
+            { "label": "≠" },
+            { "label": "≈" },
+            { "label": "⁼" }
+        ] }
+    }
+  ],
+// ROW 4
+  [
+    { "label": "0", "type": "numeric", "width": 0.2, "popup": { "relevant":
+        [
+            { "type": "placeholder" },
+            { "label": "⁰" },
+            { "label": "ⁿ" },
+            { "label": "∅" }
+        ] }
+    },
+    { "label": ".", "type": "numeric", "width": 0.1,"popup": { "relevant":
+        [
+            { "label": "!autoColumnOrder!3" },
+            { "label": "," },
+            { "label": ":" },
+            { "label": ";" },
+            { "label": "!" },
+            { "label": "?" },
+            { "label": "&" }
+        ] }
+    },
+    { "type": "placeholder", "width": 0.035 },
+    { "label": "<", "type": "normal", "width": 0.09, "popup": { "relevant":
+        [
+            { "label": "≤" },
+            { "label": "«" }
+        ] }
+    },
+    { "label": ">", "type": "normal", "width": 0.09,"popup": { "relevant":
+        [
+            { "label": "≥" },
+            { "label": "»" }
+        ] }
+    },
+    { "label": "±", "type": "normal", "width": 0.09, "popup": { "relevant":
+        [
+            { "label": "∆" }
+        ] }
+    },
+    { "label": "∞", "type": "normal", "width": 0.09 },
+    { "label": "π", "type": "normal", "width": 0.09 },
+    { "type": "placeholder", "width": 0.035 },
+    { "label": "delete", "type": "function", "width": 0.18 }
+  ],
+// ROW 5
+  [
+    { "label": "alpha", "type": "function", "width": 0.1 },
+    { "label": "!icon/select_all|!code/-202", "type": "function", "width": 0.1, "popup": { "relevant":
+        [
+            { "type": "placeholder" },
+            { "label": "settings" },
+            { "label": "one_handed" }
+        ] }
+    },
+    { "label": "emoji", "type": "function", "width": 0.1 },
+    { "type": "placeholder", "width": 0.035 },
+    { "label": "space", "width": -1, "popup": { "relevant":
+        [
+            { "label": "!autoColumnOrder!5" },
+            { "label": "😁" }, 
+            { "label": "😅" },
+            { "label": "🤣" },
+            { "label": "😉" },
+            { "label": "😊" },
+            { "label": "😍" },
+            { "label": "😋" },
+            { "label": "😘" },
+            { "label": "😚" },
+            { "label": "🤔" },
+            { "label": "😬" },
+            { "label": "☹️" },
+            { "label": "😲" },
+            { "label": "😭" },
+            { "label": "😱" },
+            { "label": "👍" },
+            { "label": "🤬" },
+            { "label": "👌" },
+            { "label": "🖕" },
+            { "label": "💪" }
+        ] }
+    },
+    { "type": "placeholder", "width": 0.035 },
+    { "label": "action", "width": 0.18 }
+  ]
+]

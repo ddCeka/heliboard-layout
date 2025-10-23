@@ -1,0 +1,117 @@
+[
+// ROW 1
+  [
+    { "type": "placeholder", "width": 0.05 },
+    { "label": "settings", "width": 0.1, "type": "normal", "popup": { "relevant":
+        [
+            { "label": "one_handed" }
+        ] }
+    },
+    { "label": "undo", "type": "normal", "width": 0.1 },
+    { "label": "up", "type": "normal", "width": 0.1, "popup": { "relevant":
+        [
+            { "label": "page_start" }
+        ] }
+    },
+    { "label": "redo", "type": "normal", "width": 0.1 },
+    { "label": "clipboard", "type": "normal", "width": 0.1, "popup": { "relevant":
+        [
+            { "label": "clear_clipboard" }
+        ] }
+    },
+    { "type": "placeholder", "width": 0.05 },
+    { "label": "\\", "type": "normal", "width": 0.1, "popup": { "relevant":
+        [
+            { "type": "placeholder" },
+            { "label": "|" },
+            { "label": "`" }
+        ] }
+    },
+    { "label": "[", "type": "normal", "width": 0.1, "popup": { "relevant":
+        [
+            { "type": "placeholder" },
+            { "label": "]" }
+        ] }
+    },
+    { "label": "<", "type": "normal", "width": 0.1, "popup": { "relevant":
+        [
+            { "type": "placeholder" },
+            { "label": ">" }
+        ] }
+    },
+    { "label": "{", "type": "normal", "width": 0.1, "popup": { "relevant":
+        [
+            { "type": "placeholder" },
+            { "label": "}" }
+        ] }
+    }
+  ],
+// ROW 2
+  [
+    { "type": "placeholder", "width": 0.05 },
+    { "label": "word_left", "type": "normal", "width": 0.1, "popup": { "relevant":
+        [
+            { "label": "full_left" }
+        ] } 
+    },
+    { "label": "left", "type": "normal", "width": 0.1 },
+    { "label": "select_word", "width": 0.1, "type": "function", "popup": { "relevant":
+        [
+            { "label": "select_all" }
+        ] }
+    },
+    { "label": "right", "type": "normal", "width": 0.1 },
+    { "label": "word_right", "width": 0.1, "popup": { "relevant":
+        [
+            { "label": "full_right" }
+        ] } 
+    },
+    { "type": "placeholder", "width": 0.05 },
+    { "label": "\"", "type": "normal", "width": 0.1 },
+    { "label": "-", "type": "normal", "width": 0.1, "popup": { "relevant":
+        [
+            { "type": "placeholder" },
+            { "label": "_" },
+            { "label": "+" }
+        ] }
+    },
+    { "label": "(", "type": "normal", "width": 0.1, "popup": { "relevant":
+        [
+            { "type": "placeholder" },
+            { "label": ")" }
+        ] }
+    },
+    { "label": "/", "type": "normal", "width": 0.1 }
+  ],
+// ROW 3
+  [
+    { "label": "copy", "type": "normal", "width": 0.1, "popup": { "relevant":
+        [
+            { "label": "cut" }
+        ] }
+    },
+    { "label": "down", "type": "normal", "width": 0.1, "popup": { "relevant":
+        [
+            { "label": "page_end" }
+        ] }
+    },
+    { "label": "paste", "type": "normal", "width": 0.1 },
+    { "type": "placeholder", "width": 0.1 },
+    { "label": ":", "type": "normal", "width": 0.1, "popup": { "relevant":
+        [
+            { "type": "placeholder" },
+            { "label": ";" }
+        ] }
+     },
+    { "label": "!", "type": "normal", "width": 0.1, "popup": { "relevant":
+        [
+            { "label": "!!!" }
+        ] }
+    },
+    { "label": "?", "type": "normal", "width": 0.1, "popup": { "relevant":
+        [
+            { "label": "??" }
+        ] }
+    }
+  ]
+]

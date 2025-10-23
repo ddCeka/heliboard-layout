@@ -1,0 +1,87 @@
+[
+// SECOND-TO-LAST ROW
+  [
+    { "label": "shift", "width": 0.15 },
+    { "type": "placeholder" },
+    { "label": "delete", "width": 0.15 }
+  ],
+// LAST ROW
+  [
+    { "label": "ABC|!code/-10001", "width": 0.15, "type": "function" },
+    { "$": "variation_selector",
+      "default": { "label": ",", "type": "function", "width": 0.1, "popup": { "relevant":
+        [
+            { "label": "emoji" },
+            { "label": "one_handed" }
+        ] }
+    },
+      "email": { "label": "@", "width": 0.1, "type": "function", "popup": { "relevant":
+        [
+            { "label": "emoji" },
+            { "label": "one_handed" }
+        ] }
+    },
+      "uri": { "label": "/", "width": 0.1, "type": "function", "popup": { "relevant":
+        [
+            { "label": "emoji" },
+            { "label": "one_handed" }
+        ] }
+    },
+// Replace the `*` characters with your password
+      "password": { "label": "!icon/incognito|*******", "width": 0.1, "type": "function", "popup": { "relevant":
+        [
+            { "label": "emoji" },
+            { "label": "settings" }
+        ] }
+    }
+    },
+    { "$": "keyboard_state_selector", "languageKeyEnabled": { "$": "keyboard_state_selector", "alphabet": { "label": "language_switch" }}},
+    { "label": "!icon/space_key_for_number_layout|!code/32", "labelFlags": 4, "width": -1, "popup": { "relevant":
+        [
+            { "label": "!autoColumnOrder!5" },
+            { "label": "😁" }, 
+            { "label": "😅" },
+            { "label": "🤣" },
+            { "label": "😉" },
+            { "label": "😊" },
+            { "label": "😍" },
+            { "label": "😋" },
+            { "label": "😘" },
+            { "label": "😚" },
+            { "label": "🤔" },
+            { "label": "😬" },
+            { "label": "☹️" },
+            { "label": "😲" },
+            { "label": "😭" },
+            { "label": "😱" },
+            { "label": "👍" },
+            { "label": "🤬" },
+            { "label": "👌" },
+            { "label": "🖕" },
+            { "label": "💪" }
+        ] }
+    },
+    { "label": ".", "width": 0.1, "type": "function", "popup": { "relevant":
+        [
+            { "label": "!autoColumnOrder!4" },
+            { "label": "," },
+            { "label": "?" },
+            { "label": "!" },
+            { "label": "#" },
+            { "label": "(" },
+            { "label": ")" },
+            { "label": "/" },
+            { "label": ";" },
+            { "label": "@" },
+            { "label": "'" },
+            { "label": ":" },
+            { "label": "-" },
+            { "label": "\"" },
+            { "label": "+" },
+            { "label": "%" },
+            { "label": "&" }
+        ] }
+    },
+    { "label": "action", "width": 0.15 }
+  ]
+]
