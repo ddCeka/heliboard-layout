@@ -14,12 +14,14 @@
         ] }
     },
     { "label": "redo", "type": "normal", "width": 0.1 },
-    { "label": "clipboard", "type": "normal", "width": 0.1, "popup": { "relevant":
-        [
-            { "label": "clear_clipboard" }
-        ] }
-    },
     { "type": "placeholder", "width": 0.05 },
+    { "$": "shift_state_selector",
+      "shiftedManual": { "label": "?" },
+      "default": { "label": "'", "type": "normal", "popup": { "main": { "label": "?" }, "relevant":
+        [
+            { "label": "??" }
+        ] } }
+    },
     { "label": "\\", "type": "normal", "width": 0.1, "popup": { "relevant":
         [
             { "type": "placeholder" },
@@ -96,7 +98,11 @@
         ] }
     },
     { "label": "paste", "type": "normal", "width": 0.1 },
-    { "type": "placeholder", "width": 0.1 },
+    { "label": "clipboard", "type": "normal", "width": 0.1, "popup": { "relevant":
+        [
+            { "label": "clear_clipboard" }
+        ] }
+    },
     { "label": ":", "type": "normal", "width": 0.1, "popup": { "relevant":
         [
             { "type": "placeholder" },

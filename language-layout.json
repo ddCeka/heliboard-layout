@@ -53,13 +53,6 @@
     { "label": "k", "type": "normal", "popup": { "main": { "label": "(" } }
     },
     { "label": "l", "type": "normal", "popup": { "main": { "label": ")" } }
-    },
-    { "$": "shift_state_selector",
-      "shiftedManual": { "label": "?" },
-      "default": { "label": "'", "type": "normal", "popup": { "main": { "label": "?" }, "relevant":
-        [
-            { "label": "??" }
-        ] } }
     }
   ],
 // ROW 3
