@@ -36,9 +36,9 @@
     },
     { "label": "s", "type": "normal", "popup": { "main": { "label": "#" } }
     },
-    { "label": "d", "type": "normal", "popup": { "main": { "label": "€" }, "relevant":
+    { "label": "d", "type": "normal", "popup": { "main": { "label": "$" }, "relevant":
         [
-            { "label": "$" },
+            { "label": "€" },
             { "label": "clear_clipboard" }
         ] }
     },
