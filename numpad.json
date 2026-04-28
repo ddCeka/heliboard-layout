@@ -182,7 +182,7 @@
 // ROW 5
   [
     { "label": "alpha", "type": "function", "width": 0.15 },
-    { "label": "!icon/select_all|!code/-202", "type": "function", "width": 0.1 ,"popup": { "relevant":
+    { "label": "settings", "type": "function", "width": 0.1 ,"popup": { "relevant":
         [
             { "type": "placeholder" },
             { "label": "settings" },

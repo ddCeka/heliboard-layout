@@ -2,7 +2,7 @@
 // ROW 1
   [
     { "type": "placeholder", "width": 0.05 },
-    { "label": "settings", "width": 0.1, "type": "normal", "popup": { "relevant":
+    { "label": "clear_clipboard", "width": 0.1, "type": "normal", "popup": { "relevant":
         [
             { "label": "one_handed" }
         ] }
