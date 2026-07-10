@@ -1,0 +1,17 @@
+[
+  [
+    { "label": "~", "type": "function", "popup": { "main": { "label": "1" } } },
+    { "label": "Esc", "type": "function", "code": -10017, "popup": { "main": { "label": "2" } } },
+    { "label": "Tab", "type": "function", "code": -10014, "popup": { "main": { "label": "3" } } },
+    { "label": "Ctrl", "type": "function", "code": -1, "popup": { "main": { "label": "4" } } },
+    { "label": "Alt", "type": "function", "code": -1, "popup": { "main": { "label": "5" } } },
+    { "label": "Home", "type": "function", "code": -27, "popup": { "main": { "label": "6" } } },
+    { "label": "End", "type": "function", "code": -28, "popup": { "main": { "label": "7" } } },
+    { "label": "PgUp", "type": "function", "code": -10010, "popup": { "main": { "label": "8" } } },
+    { "label": "PgDn", "type": "function", "code": -10011, "popup": { "main": { "label": "9" } } },
+    { "$": "shift_state_selector",
+      "manualOrLocked": { "label": ")" },
+      "default": { "label": "0", "popup": { "relevant": [{ "label": "⁰" }, { "label": "ⁿ" }, { "label": "∅" }] } }
+    }
+  ]
+]
