@@ -1,4 +1,6 @@
-## Custom keyboard layout for Heliboard
+## Heliboard Layout
+
+[Heliboard](https://github.com/Helium314/HeliBoard) custom layout
 
 > [!NOTE]
 > Updated to latest v4.1
